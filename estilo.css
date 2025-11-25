@@ -1,0 +1,109 @@
+/* Reset básico para tornar a estilização consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Estilização do header */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    max-width: 150px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #007f5f;
+    margin-top: 10px;
+}
+
+/* Seções de serviços */
+section h1 {
+    color: #00539f;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+/* Navegação principal */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #007f5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Imagem na navegação */
+nav img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Main */
+main {
+    padding: 20px 0;
+}
+
+/* Footer centralizado */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
+/* Estilos padrão para dispositivos móveis */
+body {
+    font-size: 16px;
+}
+
+/* Ajustes para tablets (largura mínima de 768px) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+        padding: 40px;
+    }
+}
+
+/* Ajustes para desktops (largura mínima de 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
