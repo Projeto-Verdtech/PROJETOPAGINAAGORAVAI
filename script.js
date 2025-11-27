@@ -31,7 +31,7 @@ async function buscarClima() {
         let umidade = climaData.hourly.relativehumidity_2m[indexHora];
 
         document.getElementById("temperatura").innerHTML = `🌡️ ${temperatura}°C`;
-        document.getElementById("umidade").innerHTML = `💧 ${umidade}% (irrigação)`;
+        document.getElementById("umidade").innerHTML = `💧 ${umidade}% (umidade)`;
         document.getElementById("vento").innerHTML = `💨 ${vento} km/h`;
 
     } catch (erro) {
